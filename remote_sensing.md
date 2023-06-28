@@ -99,11 +99,11 @@ TS=
 ```py=
 TS=
 (
-    "Digital elevation model" OR DTM 
-    OR "Sea surface temperature" OR SST 
-    OR Doppler OR SAR 
+    "Digital elevation model" OR "DTM" 
+    OR "Sea surface temperature" OR "SST" 
+    OR "Doppler" OR "SAR" 
     OR "Vegetation Indices" OR "Vegetation index" 
-    OR Bathymetry OR "Ocean Color" OR "Chlorophyll-a Concentration" OR "Sea Surface Salinity" OR SSS OR "Sea Surface Height" OR SSH 
+    OR "Bathymetry" OR "Ocean Color" OR "Chlorophyll-a Concentration" OR "Sea Surface Salinity" OR "SSS" OR "Sea Surface Height" OR "SSH" 
     OR "Ocean Surface Winds" OR "Ocean Surface Currents" OR "Ocean Surface Waves" OR "Ocean Heat Content" 
     OR "Sea Ice Concentration" OR "Sea Ice Extent" OR "Sea Ice Thickness" OR "Sea Ice Motion" OR "Iceberg Detection" OR "Ice Type Classification" 
     OR "oil spill detection"
@@ -117,7 +117,7 @@ TS=
 (
     ("remote sensing" OR "synthetic aperture radar" OR "SAR" OR "lidar" OR "satellite imagery" OR "hyperspectral imaging" OR "thermal infrared" OR "microwave remote sensing" OR "radiometric calibration" OR "image classification" OR "change detection") 
     AND 
-        (earth observation OR "land cover" OR "land use" OR vegetation OR urban OR coastal OR oceanography OR agriculture OR forestry OR geology OR "environmental monitoring")
+        ("earth observation" OR "land cover" OR "land use" OR "vegetation" OR "urban" OR "coastal" OR "oceanography" OR "agriculture" OR "forestry" OR "geology" OR "environmental monitoring")
 )
 ```
 
