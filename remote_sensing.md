@@ -87,7 +87,7 @@ TS=
 ```py=
 TS=
 (
-    "interferometry" OR "ocean colour" OR "InSAR" 
+    "interferomet*" OR "ocean colour" OR "ocean color" OR "InSAR" 
     OR "Data Fusion" OR "Feature Extraction" OR "Change Detection" OR "Image Classification" OR "Atmospheric Correction" 
     OR "Radiometric Calibration" OR "Image Fusion" OR "Time-Series Analysis" OR "Geospatial Analysis" 
     OR "land classification"
