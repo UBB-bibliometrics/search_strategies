@@ -71,13 +71,13 @@ TS=
 ```py=
 TS=
 (
-    "Synthetic Aperture Radar" OR "Along Track Scanning Radiometer" OR "Radar Altimeter" OR "Microwave Radiometer" 
-    OR "Wind Scatterometer" OR "Advanced Synthetic Aperture Radar" OR "Medium Resolution Imaging Spectrometer" OR "Multispectral Instrument" 
-    OR "Ocean and Land Color Instrument" OR "Sea and Land Surface Temperature Radiometer" 
-    OR "Synthetic Aperture Radar Altimeter" OR "UVN Spectrometer" 
-    OR "TIR radiometer" OR "Advanced Very High Resolution Radiometer" OR "spectrometer" OR "infrared radiometer" OR "microwave radiometer" 
-    OR "scatterometer" OR "gravimeter" OR "Lidar altimeter" OR "hyperspectral" OR "GNSS Altimetry" 
-    OR "radiometry" OR "spectrometry" 
+    "Synthetic Aperture Radar" OR "Along Track Scanning Radiomet*" OR "Radar Altimet*" OR "Microwave Radiomet*" 
+    OR "Wind Scatteromet*" OR "Advanced Synthetic Aperture Radar" OR "Medium Resolution Imaging Spectromet*" OR "Multispectral Instrument*" 
+    OR "Ocean and Land Color Instrument*" OR "Sea and Land Surface Temperature Radiomet*" 
+    OR "Synthetic Aperture Radar Altimet*" OR "UVN Spectromet*" 
+    OR "TIR radiomet*" OR "Advanced Very High Resolution Radiomet*" OR "spectromet*" OR "infrared radiomet*" OR "microwave radiomet*" 
+    OR "scatteromet*" OR "gravimet*" OR "Lidar altimet*" OR "hyperspectral" OR "GNSS Altimet*" 
+    OR "radiomet*" OR "spectromet*" 
     OR "SAR" OR "ATSR" OR "RA" OR "MWR" OR "WSC" OR "ASAR" OR "MERIS" OR "MSI" OR "OLCI" OR "SLSTR" OR "SRAL" OR "UVN" OR "TIR" OR "AVHRR"
 )
 ```
