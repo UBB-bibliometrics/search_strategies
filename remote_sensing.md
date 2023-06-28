@@ -16,7 +16,7 @@ TS=
     OR "GIScience"
     OR
     (
-        ("satellite$" OR "drone$" OR "unmanned aerial vehicle$" OR "unmanned air vehicles" OR "uav*")
+        ("satellite$" OR "drone$" OR "unmanned aerial vehicle$" OR "unmanned air vehicle§" OR "uav*")
         AND
             ("mapping" OR "ground measure*" OR "monitor*" OR "imaging" OR "sentinel" 
             OR "optical" OR "radar" OR "sensor$"
