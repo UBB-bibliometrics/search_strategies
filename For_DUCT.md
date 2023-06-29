@@ -1,1 +1,38 @@
 # Searching Cristin for works not indexed in Web of Science
+## General terms
+IF 
+CONTAINS(LOWER([NIB FO combined]),	"remote sensing"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"remotely sensed"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"earth observation"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"geographical information system"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"geographic information system"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"PPGIS"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"airborne laser scan*"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"aerial laser scan*"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"ground truthing"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"ground validat*"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"GIScience"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"aerial photograph*"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"satellite data"	)
+
+### Examples from funder analysis
+OR CONTAINS([NIB FO combined],	"_ERC"	)
+OR CONTAINS([NIB FO combined],	"(ERC)"	)
+OR REGEXP_MATCH([NIB FO combined], "\bERC\b")
+OR CONTAINS(([NIB FO combined]),	"_EC "	)
+OR REGEXP_MATCH([NIB FO combined], "\bEC\b")
+OR CONTAINS(([NIB FO combined]),	"_EU "	)
+OR CONTAINS(([NIB FO combined]),	"(EU "	)
+OR CONTAINS(([NIB FO combined]),	"(EU)"	)
+OR REGEXP_MATCH([NIB FO combined], "\bEU\b")
+
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "\beu project")
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "\beu program")
+OR CONTAINS(LOWER([NIB FO combined]),	"european project"	)
+OR CONTAINS(LOWER([NIB FO combined]),	"european program"	)
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "\beu funded")
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "\beu-funded")
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "_eu funded")
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "_eu-funded")
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "\beu through")
+OR REGEXP_MATCH(LOWER([NIB FO combined]), "\beu under")
